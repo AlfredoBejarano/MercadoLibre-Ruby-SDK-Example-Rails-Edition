@@ -1,0 +1,19 @@
+== README
+
+MercadoLibre Ruby On Rails SDK usage Example
+
+Example of how to do a GET call for a user searching for something
+
+* Ruby version - 2.2.3
+
+* Rails version 4.2.4
+
+The actuall magic is in app/controllers/meli_controller.rb
+Everything else is just some rails stuff and some front-end things
+
+Cheers lads!
+
+Alfredo Bejarano
+MercadoLibre México
+
+<tt>rake doc:app</tt>.

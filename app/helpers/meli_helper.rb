@@ -1,0 +1,2 @@
+module MeliHelper
+end

@@ -1,0 +1,19 @@
+<% @title = "Busca un producto"%>
+<%= form_tag("/meli", method: "get", role: "form") do %>
+<script>
+  function label(state) {
+    var label = document.getElementsByTagName("label")[0];
+    var state = state;
+    if(state == 1) {
+      label.style.fontSize = "8px";
+    } else {
+      label.style.fontSize = "16px";
+    }
+
+  }
+</script>
+<input name="utf8" type="hidden" value="&#x2713;" />
+<label for="item" onclick="label(1)">Escribe el nombre de tu producto</label>
+<input id="item" name="item" type="text" />
+<input type="submit" value="BUSCAR" />
+<% end %>

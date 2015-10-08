@@ -1,0 +1,29 @@
+<a href="/" target="_top"><span class="glyphicon glyphicon-chevron-left"></span> Regresar</a>
+<!-- If the query return no results -->
+<% if @items.size <= 0 %>
+  <h4>Tu búsqueda no produjó ningun resultado</h4>
+  <% @title = "Mostrando #{@items.size} resultados para '#{params[:item]}'" %>
+<!-- if it returns just one result -->
+<% elsif @items.size == 1 %>
+  <% @title = "Mostrando un resultado para #{params[:item]}" %>
+<!-- and finally, if more than one result is given -->
+<% else %>
+<% @title = "Mostrando #{@items.size} resultados para '#{params[:item]}'" %>
+<!-- Yeah, tables, because #2001 -->
+  <table>
+    <tr>
+      <th>Foto</th>
+      <th>Nombre</th>
+      <th>Precio</th>
+      <th>Condicion</th>
+    </tr>
+    <% @items.each do |item| %>
+	     <tr>
+         <td><%= image_tag("#{item.thumbnail}", class: "thumbnail") %></td>
+         <td><%= item.name %></td>
+         <td><%= "$#{item.price}.00" %></td>
+         <td><%= item.condition %></td>
+      </tr>
+	  <% end %>
+  </table>
+<% end %>

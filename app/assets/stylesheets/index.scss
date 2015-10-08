@@ -1,0 +1,66 @@
+// Place all the styles related to the index controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+input, label {
+  /*Transition*/
+   transition-delay: 0.1s;
+   transition-duration: 0.2s;
+   transition-property: all;
+   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+a {
+  text-align: center;
+  color: #5968ff;
+}
+
+input:focus {
+  outline: none;
+}
+
+input[type="text"] {
+  width: 35%;
+  display: block;
+  margin: 8px auto;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #9E9E9E;
+}
+
+input[type="text"]:hover {
+  border-bottom: 1px solid #E0E0E0;
+}
+
+input[type="text"]:focus {
+  border-bottom: 1px solid #5968ff;
+}
+
+input[type="submit"] {
+  width: 25%;
+  display: block;
+  margin: 8px auto;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+}
+
+input[type="submit"]:hover {
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+}
+
+label {
+  width: 35%;
+  display: block;
+  margin: 8px auto;
+  z-index: -1;
+  height: 22px;
+  color: #9E9E9E;
+  margin-bottom: -32px;
+}
+
+label:hover {
+  margin-bottom: -22px;
+  font-size: 8px;
+}
