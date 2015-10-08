@@ -15,5 +15,3 @@ Cheers lads!
 
 Alfredo Bejarano
 MercadoLibre México
-
-<tt>rake doc:app</tt>.
