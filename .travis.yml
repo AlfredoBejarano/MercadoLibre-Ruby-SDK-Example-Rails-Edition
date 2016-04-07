@@ -3,5 +3,5 @@ rvm:
   - 2.2.3
 
 install:
-  gem install rails
-  bundle install
+  - gem install rails
+  - bundle install
