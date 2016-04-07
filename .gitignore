@@ -50,3 +50,7 @@ bower.json
 
 # Ignore pow environment settings
 .powenv
+
+# Ignore Mac OS and Windows files
+*/thumbs.db
+*/.DS_Store
