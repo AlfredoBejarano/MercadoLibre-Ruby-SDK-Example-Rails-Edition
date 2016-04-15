@@ -1,4 +1,5 @@
 # MercadoLibre Ruby On Rails SDK usage Example
+
 [![Build Status](https://travis-ci.org/AlfredoBejarano/MercadoLibre-Ruby-SDK-Example-Rails-Edition.svg?branch=master)](https://travis-ci.org/AlfredoBejarano/MercadoLibre-Ruby-SDK-Example-Rails-Edition)
 
 Example of how to do a GET call for a user searching for something
