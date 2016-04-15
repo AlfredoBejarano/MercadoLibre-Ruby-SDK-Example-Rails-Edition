@@ -1,4 +1,4 @@
-# MercadoLibre Ruby On Rails SDK usage Example
+#MercadoLibre Ruby On Rails SDK usage Example
 
 [![Build Status](https://travis-ci.org/AlfredoBejarano/MercadoLibre-Ruby-SDK-Example-Rails-Edition.svg?branch=master)](https://travis-ci.org/AlfredoBejarano/MercadoLibre-Ruby-SDK-Example-Rails-Edition)
 
