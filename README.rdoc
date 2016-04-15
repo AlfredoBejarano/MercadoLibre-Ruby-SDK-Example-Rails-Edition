@@ -1,17 +1,13 @@
-#MercadoLibre Ruby On Rails SDK usage Example
+# MercadoLibre GET Example Rails Edition
 
-[![Build Status](https://travis-ci.org/AlfredoBejarano/MercadoLibre-Ruby-SDK-Example-Rails-Edition.svg?branch=master)](https://travis-ci.org/AlfredoBejarano/MercadoLibre-Ruby-SDK-Example-Rails-Edition)
+![Build Status](https://travis-ci.org/AlfredoBejarano/MercadoLibre-Ruby-SDK-Example-Rails-Edition.svg?branch=master)
 
-Example of how to do a GET call for a user searching for something
+This repo contains an example Rails application about making a simple GET call to MercadoLibre using the Ruby SDK.
 
-* Ruby version - 2.2.3
 
-* Rails version 4.2.4
-
-The actuall magic is in app/controllers/meli_controller.rb
-Everything else is just some rails stuff and some front-end things
+ - Ruby Version:  <= 2.2
+ - Rails Version 4.2.4
 
 Cheers lads!
 
-Alfredo Bejarano
-MercadoLibre México
+Alfredo Bejarano @ MercadoLibre México
