@@ -3,7 +3,7 @@
 
 This repo contains an example Rails application about making a simple GET call to MercadoLibre using the Ruby SDK.
 
- - Ruby Version:  <= 2.2
+ - Ruby Version:  >= 2.2
  - Rails Version 4.2.4
 
 Cheers lads!
