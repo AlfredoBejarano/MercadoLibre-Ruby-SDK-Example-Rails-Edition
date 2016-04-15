@@ -1,1 +1,0 @@
-[![Build Status](https://travis-ci.org/AlfredoBejarano/MercadoLibre-Ruby-SDK-Example-Rails-Edition.svg?branch=master)](https://travis-ci.org/AlfredoBejarano/MercadoLibre-Ruby-SDK-Example-Rails-Edition)
